@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        user=new User("John","hello", 1234,true);
+        //user=new User("John","hello", 1234,true);
     }
     @Override
     protected void onStart(){
