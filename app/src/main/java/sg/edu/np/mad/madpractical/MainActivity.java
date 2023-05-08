@@ -29,17 +29,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.v(TAG,"Button A clicked");
                 if(user.followed){
+                    buttonA.setText("Unfollow");
                     user.followed=false;
                     //message.setText("Followed");
                 }else{
+                    buttonA.setText("Follow");
                     user.followed=true;
                     //message.setText("Unfollow");
-                }
-                if(user.followed)
-                {
-                    buttonA.setText("Follow");
-                }else{
-                    buttonA.setText("Unfollow");
                 }
             }
 
